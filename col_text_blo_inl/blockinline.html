@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Block Inline Demo</title>
+
+  <style>
+    #div1 {
+      background: lightgray;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .block-inline {
+      background: orange;
+      padding: 10px;
+      display: inline;
+    }
+    .inline-block {
+      background: lightgreen;
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <p>
+    Lorem ipsum dolor sit amet,
+    <span class="block-inline">BLOCK → INLINE</span>
+    consectetur adipisicing elit,
+    <span class="block-inline">BLOCK → INLINE</span>
+    sed do eiusmod.
+  </p>
+
+  <div id="div1">
+    This is a normal BLOCK element (div).
+  </div>
+
+  <p>
+    Lorem ipsum dolor sit amet
+    <span class="inline-block">INLINE → BLOCK</span>
+    consectetur adipisicing elit.
+  </p>
+  
+  <div style="background: hsla(120, 100%, 50%, 0.3); padding: 20px;">
+    <div style="background: red; padding: 20px; display: inline-block; height: 60px; width: 80px;"></div>
+    <div style="background: blue; padding: 20px; display: inline-block; height:60px; width:80px;"></div>
+  </div>
+
+</body>
+</html>
+
+    

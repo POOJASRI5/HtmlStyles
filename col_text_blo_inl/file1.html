@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Colors, Fonts, Text & Display Demo</title>
+
+  <style>
+    .colors {
+      color: blue;
+      border: 2px solid red;
+      padding: 10px;
+    }
+    .backgroundimage {
+      background: url("https://picsum.photos/300/200")no-repeat;
+      height: 100px;
+      color:aliceblue;
+    }
+    .backgroundcolor {
+      background-color: hsla(120,100%,50%,0.4);
+    }
+    .fonts{
+        font-family:'Courier New', Courier, monospace;
+    }
+        .color {
+      color: red;
+    }
+
+    .text-align {
+      text-align: center;
+    }
+
+    .text-decoration {
+      text-decoration: underline;
+    }
+
+    .text-transform {
+      text-transform: uppercase;
+    }
+
+    .line-height {
+      line-height: 2;
+    }
+
+    .letter-spacing {
+      letter-spacing: 4px;
+    }
+
+    .word-spacing {
+      word-spacing: 10px;
+    }
+
+    .text-shadow {
+      text-shadow: 2px 2px 5px gray;
+    }
+
+    .white-space {
+      white-space: wrap;
+      border: 1px solid black;
+      width: 300px;
+    }
+
+    .text-overflow {
+      width: 200px;
+      border: 1px solid black;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>1. Colors (Text & Border)</h2>
+  <p class="colors">This text has blue color and a red border.</p>
+
+  <h2>2. Backgrounds</h2>
+  <div class="backgroundcolor">
+    This div has background color.
+  </div>
+  <div class="backgroundimage">
+    This div has background image.
+  </div>
+  <h2>3. Fonts</h2>
+
+  <h2>4. Text Styles</h2>
+    This text demonstrates text styles like alignment, spacing, shadow, overflow and more
+  </p>
+
+<h2>Text Color</h2>
+  <p class="color">This text shows color property.</p>
+
+  <h2>Text Align</h2>
+  <p class="text-align">This text is center aligned.</p>
+
+  <h2>Text Decoration</h2>
+  <p class="text-decoration">This text is underlined.</p>
+
+  <h2>Text Transform</h2>
+  <p class="text-transform">this text is transformed</p>
+  
+<h2>Line Height</h2>
+  <p class="line-height">
+    This paragraph shows increased line height.<br>
+    Line spacing is clearly visible.
+  </p>
+
+  <h2>Letter Spacing</h2>
+  <p class="letter-spacing">Letter spacing example</p>
+
+  <h2>Word Spacing</h2>
+  <p class="word-spacing">Word spacing example</p>
+
+  <h2>Text Shadow</h2>
+  <p class="text-shadow">Text shadow example</p>
+
+  <h2>White Space</h2>
+  <p class="white-space">
+    This text is wrapped and will automatically fitted into the margin
+  </p>
+  <h2>Text Overflow</h2>
+  <p class="text-overflow">
+    This text is too long and will show dots at the end
+  </p>
+</body>
+</html>
